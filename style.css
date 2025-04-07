@@ -105,45 +105,35 @@ body {
     pointer-events: none;
   }
   
-  /* Adaptación para pantallas pequeñas */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.8em;
-    margin-top: 20px;
+  @media (max-width: 480px) {
+    .marco-flores {
+      top: -60px;
+      left: -60px;
+      width: 320px;
+      height: 420px;
+    }
+  
+    .marco-contenedor {
+      width: 250px;
+      height: 350px;
+      margin: 10px auto;
+    }
+  
+    .imagen-contenedor {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .foto-principal {
+      border-radius: 16px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
   }
-
-  .marco-contenedor {
-    width: 90vw;
-    height: auto;
-    margin: 20px auto;
-  }
-
-  .imagen-contenedor {
-    width: 100%;
-    height: auto;
-  }
-
-  .foto-principal,
-  .marco-flores {
-    width: 100%;
-    height: auto;
-  }
-
-  .mensaje-secreto p {
-    font-size: 1.2em;
-    padding: 0 10px;
-  }
-
-  .botones-frases button {
-    font-size: 1.5em;
-    padding: 8px 16px;
-  }
-
-  button {
-    font-size: 1em;
-    padding: 10px 16px;
-  }
-}
+  
 
   
   
